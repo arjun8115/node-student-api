@@ -1,3 +1,3 @@
 module.exports={
-	'mongoUrl':"mongodb://localhost:27017/student-api"
+	'mongoUrl':process.env.MONGODB_URI
 }
