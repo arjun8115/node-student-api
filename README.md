@@ -15,7 +15,9 @@ Use Postman:
 2.POST request(add):
       post(localhost:5000/add)
          body->text/json
-         {
+         
+         
+         body{
          "name": "xyz",
          "rollno": 12345,
          "branch": "ABC",
